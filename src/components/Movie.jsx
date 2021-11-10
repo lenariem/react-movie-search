@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import MovieDefaultImg from "../img/defaultMovieCover.png";
 
+const showMoreBtn = () => {
+    
+}
+
 export default function Movie(props) {
   const {
     Title: title,
@@ -10,6 +14,8 @@ export default function Movie(props) {
     imdbID: id,
     Type: type,
   } = props;
+
+  
 
   return (
     <div className="card" title={`More Info about ${title}`}>

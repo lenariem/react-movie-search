@@ -11,7 +11,7 @@ export default function MovieList({ movies = [] }) {
         ))
       ) : (
         <div className="notFoundText">
-          <div>Sorry, this movie is not found! Try please another title!</div>
+          <div>Sorry, this movie is not found! Please try another title!</div>
           <div>
             <img className="notFoundImg" src={notFoundImg} alt="cat" />
           </div>

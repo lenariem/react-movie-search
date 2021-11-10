@@ -17,7 +17,7 @@ export default function Header() {
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
               <a
-                href="https://github.com/lenariem/react-film-search"
+                href="https://github.com/lenariem/react-movie-search"
                 title="Repo on GitHub"
                 target="blank"
               >

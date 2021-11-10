@@ -69,9 +69,7 @@ export default class Search extends Component {
               className="btn search-btn teal darken-2"
               onClick={this.getMovieBySearch}
             >
-              <span>
-                <i className="material-icons">search</i>
-              </span>
+              <i className="material-icons">search</i>
             </button>
           </div>
         </div>
