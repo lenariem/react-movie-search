@@ -15,7 +15,7 @@ export default class App extends Component {
         <Routes>
           <Route path="/react-movie-search/" element={<Main />} />
           <Route path = '/:id' element={<MoviePage />}/>
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path='*' exact={true} element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </div>
