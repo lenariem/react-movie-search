@@ -2,7 +2,7 @@
 
 **to take a look please click this link:** 
 
-https://lenariem.github.io/react-movie-search
+ https://lenariem.github.io/react-movie-search/
 
 ### Technologies used: 
 * React JS;
