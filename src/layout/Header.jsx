@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <nav className="teal darken-2">
         <div className="nav-wrapper teal darken-2">
-          <Link to="/">
+          <Link to="/react-movie-search/">
             <div className="brand-logo">
               React Movies <img src={Logo} alt="logo" className="logoIcon" />
             </div>

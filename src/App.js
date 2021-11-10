@@ -13,7 +13,7 @@ export default class App extends Component {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/react-movie-search/" element={<Main />} />
           <Route path = '/:id' element={<MoviePage />}/>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
