@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-movie-search/static/css/main.fd50a295.chunk.css",
+    "main.js": "/react-movie-search/static/js/main.05f34775.chunk.js",
+    "main.js.map": "/react-movie-search/static/js/main.05f34775.chunk.js.map",
+    "runtime-main.js": "/react-movie-search/static/js/runtime-main.e86905f7.js",
+    "runtime-main.js.map": "/react-movie-search/static/js/runtime-main.e86905f7.js.map",
+    "static/js/2.f33adfa1.chunk.js": "/react-movie-search/static/js/2.f33adfa1.chunk.js",
+    "static/js/2.f33adfa1.chunk.js.map": "/react-movie-search/static/js/2.f33adfa1.chunk.js.map",
+    "index.html": "/react-movie-search/index.html",
+    "static/css/main.fd50a295.chunk.css.map": "/react-movie-search/static/css/main.fd50a295.chunk.css.map",
+    "static/js/2.f33adfa1.chunk.js.LICENSE.txt": "/react-movie-search/static/js/2.f33adfa1.chunk.js.LICENSE.txt",
+    "static/media/cat.14f99fb2.jpg": "/react-movie-search/static/media/cat.14f99fb2.jpg",
+    "static/media/defaultMovieCover.1733cb6c.png": "/react-movie-search/static/media/defaultMovieCover.1733cb6c.png",
+    "static/media/github.f11a34fa.svg": "/react-movie-search/static/media/github.f11a34fa.svg",
+    "static/media/logo.2b1c2c44.png": "/react-movie-search/static/media/logo.2b1c2c44.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e86905f7.js",
+    "static/js/2.f33adfa1.chunk.js",
+    "static/css/main.fd50a295.chunk.css",
+    "static/js/main.05f34775.chunk.js"
+  ]
+}
