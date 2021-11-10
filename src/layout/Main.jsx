@@ -9,18 +9,28 @@ export default class Main extends Component {
     loading: true,
   };
 
-  getMovies = async (url) => {
-    const res = await fetch(url);
+  getMovies = (url) => {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => 
+        this.setState({ movies: data.Search, loading: false,})
+      )
+      .catch(err => {
+        console.log(err);
+        this.setState({loading: false})
+      })
+    /* const res = await fetch(url);
     if (!res.ok) {
+      this.setState({
+        loading: false,
+      });
       throw new Error(`Could not fetch ${url}, received ${res.status}`);
+     
     }
 
     const data = await res.json();
-
-    this.setState({
-      movies: data.Search,
-      loading: false,
-    });
+ */
+    
   };
 
   render() {

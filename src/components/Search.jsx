@@ -16,7 +16,7 @@ export default class Search extends Component {
     }
 
     this.props.getMovies(
-      `http://www.omdbapi.com/?apikey=${API_KEY}&s=${termUrl.trim()}${
+      `https://www.omdbapi.com/?apikey=${API_KEY}&s=${termUrl.trim()}${
         this.state.type !== "all" ? `&type=${this.state.type}` : ""
       }`
     );

@@ -8,7 +8,6 @@ const API_KEY = process.env.REACT_APP_API_KEY;
 export default class MoviePage extends Component {
   state = {
     movie: {},
-    loading: true,
   };
 
   getMovies = async (url) => {
@@ -20,13 +19,12 @@ export default class MoviePage extends Component {
 
     this.setState({
       movie: data,
-      loading: false,
     });
   };
 
   componentDidMount() {
     const movieId = window.location.pathname.slice(1);
-    this.getMovies(`http://www.omdbapi.com/?apikey=${API_KEY}&i=${movieId}`);
+    this.getMovies(`https://www.omdbapi.com/?apikey=${API_KEY}&i=${movieId}`);
   }
 
   render() {
