@@ -1,0 +1,169 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  color: #000;
+}
+
+/* HEADER */
+nav {
+  padding: 0 1.4rem;
+}
+
+nav ul a:hover {
+  background-color: transparent;
+}
+
+.brand-logo {
+  cursor: pointer;
+}
+
+.logoIcon {
+  width: 30px;
+}
+
+.gitIcon {
+  display: block;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(90deg);
+  cursor: pointer;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+
+.page-footer .footer-copyright {
+  padding: 0;
+  vertical-align: middle;
+}
+
+footer .container {
+  padding: 0.5%;
+}
+
+/* MAIN PAGE */
+.content {
+  padding: 1.5rem 0;
+}
+
+.input-field {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.input-field input[type=text] {
+  margin-right: 2%;
+  padding: 1px 8px;
+  transition: 0.3s all;
+  font-size: 1.3rem;
+  letter-spacing: 0.8px;
+}
+
+.moreMoviesBtn {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+/* BUTTONS  */
+.btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightMargin {
+  margin-right: 5px;
+}
+
+.searchRadio {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* MOVIE LIST */
+.moviesList {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 342px;
+  margin: 2%;
+  box-shadow: 0px 0px 4px 2px #00796b9d;
+  padding: 0.8%;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.card .card-image img {
+  height: 480px;
+  object-fit: cover;
+}
+
+.movieCardTitle {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* NOT FOUND PAGE */
+.notFoundPage {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundText {
+  font-size: 1.6rem;
+  margin-top: 3%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 90%;
+}
+
+.notFoundImg {
+  width: 300px;
+  margin: 1% auto;
+}
+
+/* SINGLE MOVIE PAGE */
+.moviePageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1%;
+  margin-bottom: 50px;
+}
+
+.big {
+  width: 700px;
+  font-size: 1.2rem;
+  cursor: default;
+}
