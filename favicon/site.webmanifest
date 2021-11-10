@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "react-film-search",
+    "short_name": "react-film-search",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
