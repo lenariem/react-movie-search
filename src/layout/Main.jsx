@@ -19,17 +19,6 @@ export default class Main extends Component {
         console.log(err);
         this.setState({loading: false})
       })
-    /* const res = await fetch(url);
-    if (!res.ok) {
-      this.setState({
-        loading: false,
-      });
-      throw new Error(`Could not fetch ${url}, received ${res.status}`);
-     
-    }
-
-    const data = await res.json();
- */
     
   };
 

@@ -10,16 +10,13 @@ export default class MoviePage extends Component {
     movie: {},
   };
 
-  getMovies = async (url) => {
-    const res = await fetch(url);
-    if (!res.ok) {
-      throw new Error(`Could not fetch ${url}, received ${res.status}`);
-    }
-    const data = await res.json();
-
-    this.setState({
-      movie: data,
-    });
+  getMovies = (url) => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => this.setState({ movie: data }))
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   componentDidMount() {
