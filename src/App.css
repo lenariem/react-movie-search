@@ -74,12 +74,6 @@ footer .container {
   letter-spacing: 0.8px;
 }
 
-.moreMoviesBtn {
-  margin-bottom: 60px;
-  display: flex;
-  justify-content: center;
-}
-
 /* BUTTONS  */
 .btn {
   text-align: center;
